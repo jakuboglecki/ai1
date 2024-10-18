@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    /* background-color: #ffe5b5; */
+    background-image: url("sand.png");
+}
+
+.menu {
+    background-color: #7ECDC7;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu li:last-child {
+    margin-right: 30px;
+}
+
+.menu .second-page {
+    margin-left: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia;
+    text-shadow:
+        -1px -1px 0 black;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+#tytul {
+    text-align: center;
+    margin-top: 70px;
+}
+
+h1 {
+    text-align: center;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: Fjalla One;
+    border: 5px solid #fc9dbc;
+}
+
+h2,
+h3 {
+    font-family: Kanit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+h2 {
+    text-decoration: underline #7ECDC7;
+}
+
+h3 {
+    font-style: italic;
+    text-decoration: underline #fc9dbc;
+}
+
+
+section {
+    line-height: 1.5;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+}
+
+p {
+    font-family: Kanit;
+    margin: 10px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    font-family: Kanit;
+}
+
+li::marker {
+    color: #fc9dbc;
+}
+
+
+
+#about {
+    /* background-color: #7ECDC7; */
+    padding: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images img {
+    max-height: 200px;
+    width: auto;
+    object-fit: cover;
+    padding: 10px;
+    background-color: #fc9dbc;
+}
+
+/* 192.168.1.209/27 */
+
+footer {
+    background-color: #7ECDC7;
+    color: white;
+    font-family: Georgia;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bottom-container {
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
+
+.bottom {
+    width: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia;
+}
