@@ -1,0 +1,75 @@
+* {
+    font-family: Caveat;
+}
+
+body {
+    background-image: url("corkboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Caveat;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#mainSheet {
+    background-color: white;
+    padding: 20px;
+    border: 10px solid rgba(81, 0, 0, 0.781);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#mainSheet img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#search {
+    width: 50%
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+#taskList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li span.highlight {
+    background-color: yellow;
+}
+
+button {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="text"],
+input[type="datetime-local"] {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+taskForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
