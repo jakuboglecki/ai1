@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="leaflet-1.7.1/leaflet.css" />
+    <link rel="stylesheet" href="puzzle.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div id="map"></div>
+        <canvas id="picture"></canvas>
+        <div id="mixedPuzzle"></div>
+        <div id="puzzle"></div>
+    </div>
+
+    <div id="buttons">
+        <button id="getLocation">Get Current Location</button>
+        <button id="saveButton">Save Raster Map</button>
+    </div>
+
+    <div id="notification" class="hidden"></div>
+
+    <script src="leaflet-1.7.1/leaflet-src.js"></script>
+    <script src="leaflet-1.7.1/leaflet-providers.js"></script>
+    <script src="leaflet-1.7.1/leaflet-image.js"></script>
+
+    <script src="puzzle.js"></script>
+</body>
+
+</html>
