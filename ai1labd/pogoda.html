@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pogoda</title>
+    <link rel="stylesheet" href="pogoda.css">
+</head>
+<body>
+
+<div id="weather-search-params">
+    <h1>Prognoza pogody</h1>
+    <input type="text" value="Szczecin, Poland" id="locationInput">
+    <button id="checkButton">Sprawdź</button>
+</div>
+
+<div id="weather-results-container">
+    <div class="weather-block">
+        <div class="weather-date">23.11.2024 10:00</div>
+        <div class="weather-temperature">4.20 &deg;C</div>
+        <div class="weather-temperature-feels-like">Odczuwalna: 0.99&deg;C</div>
+        <img class="weather-icon" src="https://openweathermap.org/img/wn/${iconName}@2x.png">
+        <div class="weather-description">częściowe zachmurzenie</div>
+    </div>
+</div>
+
+<script src="pogoda.js"></script>
+
+</body>
+</html>
